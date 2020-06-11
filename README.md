@@ -9,9 +9,11 @@
 </ol>
 
 <br>
+<br>
 
 <h1>#Documents (is subject to change):</h1>
-<p>Features and screens flow chart:</p>
+<h3>Features and screens flow chart:</h3>
 <img src="features_and_screens_flow_chart.jpg" width="1280" height="720">
-<p>Class diagram of main classes:</p>
+<br>
+<h3>Class diagram of main classes:</h3>
 <img src="class_diagram.jpg" width="1280" height="720">
