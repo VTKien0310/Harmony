@@ -1,4 +1,4 @@
-<h1>Features to be implemented with priority:</h1>
+<h1>#Features to be implemented with priority:</h1>
 <ol>
     <li>Extract dominant color from uploaded image</li>
     <li>Re-pick color from uploaded image</li>
@@ -10,6 +10,8 @@
 
 <br>
 
-<h1>Documents:</h1>
+<h1>#Documents (is subject to change):</h1>
 <p>Features and screens flow chart:</p>
 <img src="features_and_screens_flow_chart.jpg" width="1280" height="720">
+<p>Class diagram of main classes:</p>
+<img src="class_diagram.jpg" width="1280" height="720">
