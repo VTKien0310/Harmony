@@ -8,6 +8,8 @@
     <li>Keep some colors from previous generation and generate a new color palette with those colors</li>
 </ol>
 
+<br>
+
 <h1>Documents:</h1>
 <p>Features and screens flow chart:</p>
 <img src="features_and_screens_flow_chart.jpg" width="1280" height="720">
