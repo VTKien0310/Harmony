@@ -1,90 +1,60 @@
 package com.example.harmony;
 
 class Color {
-    private int _red = 0;
-    private int _green = 0;
-    private int _blue = 0;
+    private float _h;
+    private float _s;
+    private float _l;
 
-    public Color(int red, int green, int blue)
+    public Color()
     {
-        _red = red;
-        _green = green;
-        _blue = blue;
+        _h = 0;
+        _s = 0;
+        _l = 0;
     }
 
-    public int getRed()
+    public Color(float h, float s, float l)
     {
-        return _red;
+        _h = h;
+        _s = s;
+        _l = l;
     }
 
-    public int getGreen()
+    public float get_h()
     {
-        return _green;
+        return _h;
     }
 
-    public int getBlue()
+    public float get_s()
     {
-        return _blue;
+        return _s;
     }
 
-    public void setRed(int red)
+    public float get_l()
     {
-        _red = red;
+        return _l;
     }
 
-    public void setGreen(int green)
+    public void set_h(float h)
     {
-        _green = green;
+        _h = h;
     }
 
-    public void setBlue(int blue)
+    public void set_s(float s)
     {
-        _blue = blue;
+        _s = s;
     }
 
-    public float[] rgb2hsl()
+    public void set_l(float l)
     {
-        int minValue = Math.min(Math.min(_red,_green),_blue);
-        int maxValue = Math.max(Math.max(_red,_green),_blue);
-        int delMax = maxValue - minValue;
-
-        float h = 0, s = 0;
-        float l = (maxValue+minValue)/2;
-
-        if(delMax != 0)
-        {
-            if(l < 0.5)
-                s = delMax / (maxValue + minValue);
-            else
-                s = delMax / (2 - maxValue - minValue);
-
-            float delRed = (((maxValue - _red) / 6) + (delMax / 2)) / delMax;
-            float delGreen = (((maxValue - _green) / 6) + (delMax / 2)) / delMax;
-            float delBlue = (((maxValue - _blue) / 6) + (delMax / 2)) / delMax;
-
-            if(_red == maxValue)
-                h = delBlue - delGreen;
-            else if(_green == maxValue)
-                h = (1/3) + delRed - delBlue;
-            else if(_blue == maxValue)
-                h = (2/3) + delGreen - delRed;
-
-            if(h<0)
-                h+=1;
-
-            if(h>1)
-                h-=1;
-        }
-        return new float[]{h, s, l};
+        _l = l;
     }
 
     public Color getOpposite()
     {
-        float[] hsl = rgb2hsl();
-
-        float oph = (float) (hsl[0]+0.5);
-        if(oph>1)
-            oph-=1;
+        float op_h = (float) (_h + 0.5);
+        if(op_h>1)
+            op_h-=1;
+        return new Color(op_h,_s,_l);
     }
 
     public Color getNext()
@@ -92,7 +62,7 @@ class Color {
 
     }
 
-    public Color getLeap()
+    public Color getTriad()
     {
         
     }
