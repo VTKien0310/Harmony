@@ -1,5 +1,11 @@
 package com.example.harmony;
 
+import android.content.Context;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 class Scheme {
     private Color[] _colors;
 
@@ -23,8 +29,11 @@ class Scheme {
 
     }
 
-    public void save()
-    {
-
+    public void save(Context context) throws IOException {
+        FileOutputStream fileWriter = context.openFileOutput(this.getClass().toString(), Context.MODE_PRIVATE);
+        ObjectOutputStream objectWriter = new ObjectOutputStream(fileWriter);
+        objectWriter.writeObject(this);
+        objectWriter.close();
+        fileWriter.close();
     }
 }
