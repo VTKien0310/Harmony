@@ -1,5 +1,12 @@
 package com.example.harmony;
 
+import android.content.Context;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 class Color {
     private float _h;
     private float _s;
@@ -75,5 +82,13 @@ class Color {
 
         Color tri1 = new Color(tri1_h,_s,_l), tri2 = new Color(tri2_h,_s,_l);
         return new Color[]{tri1, tri2};
+    }
+
+    public void saveToFile(Context context) throws IOException {
+        FileOutputStream fileWriter = context.openFileOutput(this.getClass().toString(), Context.MODE_PRIVATE);
+        ObjectOutputStream objectWriter = new ObjectOutputStream(fileWriter);
+        objectWriter.writeObject(this);
+        objectWriter.close();
+        fileWriter.close();
     }
 }
