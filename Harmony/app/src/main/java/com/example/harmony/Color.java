@@ -60,7 +60,7 @@ class Color {
 
     public Color getNext()
     {
-
+        return new Color(12,_s,_l);
     }
 
     // get 2 other colors on the color wheel that make a triangle
