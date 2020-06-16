@@ -1,18 +1,16 @@
 package com.example.harmony;
 
-import java.util.Comparator;
-
-public class ColorExtracted implements Comparable<ColorExtracted>{
+public class ExtractedColor implements Comparable<ExtractedColor>{
     String _code;
 
     @Override
-    public int compareTo(ColorExtracted o) {
+    public int compareTo(ExtractedColor o) {
         return this._percent - o._percent;
     }
 
     int _percent;
 
-    public ColorExtracted(String code, int percent){
+    public ExtractedColor(String code, int percent){
         _code = code;
         _percent = percent;
     }

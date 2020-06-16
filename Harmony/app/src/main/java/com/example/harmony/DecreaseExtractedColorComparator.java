@@ -2,7 +2,7 @@ package com.example.harmony;
 
 import java.util.Comparator;
 
-public class DecreaseColorExtractedComparator implements Comparator<ExtractedColor> {
+public class DecreaseExtractedColorComparator implements Comparator<ExtractedColor> {
     /* used for sorting in decreasing order */
     @Override
     public int compare(ExtractedColor o1, ExtractedColor o2) {
