@@ -7,20 +7,17 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 class Scheme {
-    private Color[] _colors;
+    private MyColor[] _colors;
 
-    public Scheme(Color[] colors)
-    {
+    public Scheme(MyColor[] colors) {
         _colors = colors;
     }
 
-    public Color getColorAtPos(int pos)
-    {
+    public MyColor getColorAtPos(int pos) {
         return _colors[pos];
     }
 
-    public void setColorAtPos(int pos, Color color)
-    {
+    public void setColorAtPos(int pos, MyColor color) {
         _colors[pos] = color;
     }
 
