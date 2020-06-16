@@ -1,16 +1,18 @@
 package com.example.harmony;
 
 class Scheme {
-    private Color[] colors;
+    private MyColor[] _colors;
 
-    public Color getColorAtPos(int pos)
-    {
-
+    public Scheme(MyColor[] colors) {
+        _colors = colors;
     }
 
-    public void setColorAtPos(Color color)
-    {
+    public MyColor getColorAtPos(int pos) {
+        return _colors[pos];
+    }
 
+    public void setColorAtPos(int pos, MyColor color) {
+        _colors[pos] = color;
     }
 
     public void generateColors()
