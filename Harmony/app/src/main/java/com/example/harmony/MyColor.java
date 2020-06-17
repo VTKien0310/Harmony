@@ -23,6 +23,12 @@ class MyColor {
         _l = l;
     }
 
+    public MyColor(float[] hsl) {
+        _h = hsl[0];
+        _s = hsl[1];
+        _l = hsl[2];
+    }
+
     public float get_h() {
         return _h;
     }
@@ -55,32 +61,17 @@ class MyColor {
         return new MyColor(op_h, _s, _l);
     }
 
-    // get the next color on the color wheel
-    public MyColor getNext() {
-        float next_h = _h + 10;
-        if (next_h > 360)
-            next_h -= 360;
-        return new MyColor(next_h, _s, _l);
-    }
+    // get 2 other colors on the color wheel that are analogous
+    public MyColor[] getAnalogs() {
+        float ana1_h = _h + 30, ana2_h = _h - 30;
 
-    // get the previous color on the color wheel
-    public MyColor getPrevious() {
-        float prev_h = _h + 10;
-        if (prev_h < 0)
-            prev_h += 360;
-        return new MyColor(prev_h, _s, _l);
-    }
+        if (ana1_h > 360)
+            ana1_h -= 360;
+        if (ana2_h < 0)
+            ana2_h += 360;
 
-    // increase color saturation
-    public void increaseSaturation() {
-        if (_s != 100)
-            _s++;
-    }
-
-    // decrease color saturation
-    public void decreaseSaturation() {
-        if (_s != 0)
-            _s--;
+        MyColor ana1 = new MyColor(ana1_h, _s, _l), ana2 = new MyColor(ana2_h, _s, _l);
+        return new MyColor[]{ana1, ana2};
     }
 
     // get 2 other colors on the color wheel that make a triangle
