@@ -19,7 +19,7 @@ public class GenerateColor extends AppCompatActivity {
     ImageView colorWheel;
     Bitmap bitmap;
     Scheme colorScheme;
-    int[] lockedColors = {0, 0, 0, 0, 0, 0};
+    int[] lockedColors = {0, 0, 0, 0, 0, 0}; // position of locked colors
 
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -29,7 +29,7 @@ public class GenerateColor extends AppCompatActivity {
 
         colorScheme = new Scheme();
 
-
+        // check whether a color is sent from another activity
         Intent intent = getIntent();
         if(intent.hasExtra("h"))
         {
@@ -40,8 +40,9 @@ public class GenerateColor extends AppCompatActivity {
             setLocked(findViewById(R.id.color0));
             colorScheme.generateColors(lockedColors);
         }
+        
         setScheme();
-
+        
         colorWheel = findViewById(R.id.colorWheel);
         colorWheel.setDrawingCacheEnabled(true);
         colorWheel.buildDrawingCache(true);
