@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/baotran/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/6cac2e40aaad7d17efd78ef41d825d1b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -31,25 +31,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/baotran/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/ed8cc0ac00b11c0234ef1e5a578c70c1/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/df4d09f70e3f533a2fede8f96085147c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:4:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:5:5-96
+	android:name
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:5:22-77
 application
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/baotran/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/baotran/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -59,43 +67,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/baot
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.example.newharmony.MainActivity
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:9-59
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:19-47
-activity#com.example.newharmony.GenerateColor
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:9-60
-	android:name
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:19-48
-activity#com.example.newharmony.ExtractColor
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:9-20:20
-	android:name
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.newharmony.GenerateColor
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:20:9-60
+	android:name
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:20:19-48
+activity#com.example.newharmony.ExtractColor
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:21:9-22:20
+	android:name
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:21:19-47
+activity#com.example.newharmony.MainScreen
+ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:23:19-45
 uses-sdk
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/baotran/.gradle/caches/transforms-2/files-2.1/28120aa98d624ce8fee0a8087788fd91/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -150,13 +162,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/baotran/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/df4d09f70e3f533a2fede8f96085147c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/c16c855844b564ee7204d4d6005470fb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		ADDED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		ADDED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml

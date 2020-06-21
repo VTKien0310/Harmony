@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81cec282-dfc4-41f5-987c-d63ccd719ebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Harmony/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Harmony/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="541f1b2b-25df-4ed2-92ea-123676c01bca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -22,19 +25,31 @@
       </state>
     </system>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1dcsvvgFPsHfAUW5tbXrHw2M6vz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1dcv0XpHbpXBs4V7ewwFu3w6PIt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-21T14:07:27.088Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -101,18 +116,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81cec282-dfc4-41f5-987c-d63ccd719ebc" name="Default Changelist" comment="" />
-      <created>1592735949287</created>
+      <changelist id="541f1b2b-25df-4ed2-92ea-123676c01bca" name="Default Changelist" comment="" />
+      <created>1592736975381</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592735949287</updated>
+      <updated>1592736975381</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1080" height="600" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1592736098065">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1592742125969">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.800@0.0.1280.800" timestamp="1592736098065" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1592742125969" />
+    <state x="228" y="162" key="AndroidCreateResourceFileDialog" timestamp="1592741537002">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="162" key="AndroidCreateResourceFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1592741537002" />
+    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1592748477731">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592748477731" />
+    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1592748477730">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592748477730" />
+    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1592748477730">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592748477730" />
+    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1592748477731">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592748477731" />
+    <state x="100" y="100" width="1080" height="600" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1592744130817">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.800@0.0.1280.800" timestamp="1592744130817" />
   </component>
 </project>

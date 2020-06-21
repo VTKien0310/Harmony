@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "/Users/baotran/Downloads/Harmony-master/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/Users/baotran/Downloads/Harmony-master/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/baotran/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-as/values-as.xml",

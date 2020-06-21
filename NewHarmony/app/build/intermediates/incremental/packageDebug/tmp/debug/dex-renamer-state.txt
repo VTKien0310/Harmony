@@ -1,7 +1,7 @@
-#Sun Jun 21 17:41:07 ICT 2020
-base.0=/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+#Sun Jun 21 21:07:25 ICT 2020
+base.0=/Users/baotran/Downloads/Harmony-master/NewHarmony/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.1=/Users/baotran/Downloads/Harmony-master/NewHarmony/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

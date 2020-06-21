@@ -6,49 +6,61 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+8-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+9-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:5-21:19
-12        android:allowBackup="true"
-12-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:11:9-40
-22        <activity android:name="com.example.newharmony.MainActivity" />
-22-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:9-59
-22-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:19-47
-23        <activity android:name="com.example.newharmony.GenerateColor" />
-23-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:9-60
-23-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:19-48
-24        <activity android:name="com.example.newharmony.ExtractColor" >
-24-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:9-20:20
-24-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:19-47
-25            <intent-filter>
-25-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:16:17-69
-26-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:18:17-77
-28-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:4:5-81
+11-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:5:5-96
+12-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:5:22-77
+13
+14    <application
+14-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:6:5-25:19
+15        android:allowBackup="true"
+15-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:12:9-40
+25        <activity android:name="com.example.newharmony.MainActivity" >
+25-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:13:9-19:20
+25-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:13:19-47
+26            <intent-filter>
+26-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:14:13-18:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:15:17-69
+27-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:15:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:17:17-77
+29-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:17:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.newharmony.GenerateColor" />
+32-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:20:9-60
+32-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:20:19-48
+33        <activity android:name="com.example.newharmony.ExtractColor" >
+33-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:21:9-22:20
+33-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:21:19-47
+34        </activity>
+35        <activity android:name="com.example.newharmony.MainScreen" >
+35-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:23:9-24:20
+35-->/Users/baotran/Downloads/Harmony-master/NewHarmony/app/src/main/AndroidManifest.xml:23:19-45
+36        </activity>
+37    </application>
+38
+39</manifest>

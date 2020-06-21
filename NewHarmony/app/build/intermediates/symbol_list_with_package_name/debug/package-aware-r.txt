@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim bot_animation
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -23,6 +24,7 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+anim top_animation
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -674,6 +676,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable illustration
 drawable lock
+drawable logo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -687,6 +690,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pluspro
+drawable radius_button
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable unlock
@@ -758,6 +762,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id camera
 id center
 id center_horizontal
 id center_vertical
@@ -793,6 +798,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id galary
 id gone
 id group_divider
 id groups
@@ -802,6 +808,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -875,6 +883,11 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id time
 id title
 id titleDividerNoCustom
@@ -934,6 +947,7 @@ layout abc_tooltip
 layout activity_extract_6colors
 layout activity_generate_color
 layout activity_main
+layout activity_main_screen
 layout custom_dialog
 layout listview_color
 layout notification_action
