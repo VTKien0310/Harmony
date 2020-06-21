@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GenerateColor">
+
+    <ImageView
+        android:id="@+id/colorWheel"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:src="@drawable/color_wheel"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Generate"
+        android:onClick="generate"/>
+
+    <TextView
+        android:id="@+id/color0"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+    <TextView
+        android:id="@+id/color1"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+    <TextView
+        android:id="@+id/color2"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+    <TextView
+        android:id="@+id/color3"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+    <TextView
+        android:id="@+id/color4"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+    <TextView
+        android:id="@+id/color5"
+        android:onClick="setLocked"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:drawableStart="@drawable/unlock"/>
+
+</LinearLayout>
