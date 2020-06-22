@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -19,7 +21,7 @@ import java.io.IOException;
 
 public class MainScreen extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
-    static final int RESULT_LOAD_IMAGE = 1;
+    static final int RESULT_LOAD_IMAGE = 2;
     public static final String BITMAP_IMAGE = "com.example.newharmony.BITMAP";
     ImageView imageView2;
 
@@ -51,14 +53,22 @@ public class MainScreen extends AppCompatActivity {
             Bundle extras = data.getExtras();
             imageBitmap = (Bitmap) extras.get("data");
         }
-        if (requestCode == RESULT_LOAD_IMAGE && resultCode == RESULT_OK && null != data) {
+        if (requestCode == RESULT_LOAD_IMAGE && resultCode == RESULT_OK) {
             Uri selectedImageUri = data.getData();
             String selectedImagePath = getPath(selectedImageUri);
 
+
+
             imageView2.setImageURI(selectedImageUri);
-
-
-
+            Drawable d = imageView2.getDrawable();
+            imageBitmap = Bitmap.createBitmap(d.getIntrinsicWidth(), d.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
+            int width = imageBitmap.getWidth();
+            int height = imageBitmap.getHeight();
+            Matrix matrix = new Matrix();
+            // RESIZE THE BIT MAP
+            matrix.postScale(width, height);
+            imageBitmap =Bitmap.createBitmap(
+                    imageBitmap, 0, 0, 80, 80,matrix , false);
         }
         try {
             Intent intent = new Intent(MainScreen.this, ExtractColor.class);
