@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/baotran/Downloads/Harmony-master/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/baotran/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "source": "/home/trg_kien/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

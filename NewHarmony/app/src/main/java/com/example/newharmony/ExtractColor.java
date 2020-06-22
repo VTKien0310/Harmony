@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -90,7 +91,7 @@ public class ExtractColor extends AppCompatActivity {
             l[j] = hsl[2];
             _lstColor.add(new MyColor(hsl, population));
         }
-        Collections.sort(_lstColor, new DecreaseExtractedColorComparator());
+//        Collections.sort(_lstColor, new DecreaseExtractedColorComparator());
     }
 
 
