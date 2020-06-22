@@ -32,7 +32,7 @@ public class MainScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main_screen);
-        imageView2 = (ImageView) findViewById(R.id.imageView2);
+
     }
 
     public void take_photo(View view) {
@@ -120,5 +120,10 @@ public class MainScreen extends AppCompatActivity {
         BitmapFactory.Options o2 = new BitmapFactory.Options();
         o2.inSampleSize = scale;
         return BitmapFactory.decodeStream(c.getContentResolver().openInputStream(uri), null, o2);
+    }
+
+    public void generate1(View view) {
+        Intent a = new Intent(MainScreen.this, GenerateColor.class);
+        startActivity(a);
     }
 }

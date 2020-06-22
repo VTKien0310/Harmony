@@ -6,60 +6,60 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+8-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
+9-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:4:5-81
-11-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:4:22-62
+11-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:4:5-81
+11-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:4:22-62
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:5-96
-12-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:22-77
+12-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:5-96
+12-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:5:22-77
 13
 14    <application
-14-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:6:5-25:19
+14-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:6:5-25:19
 15        android:allowBackup="true"
-15-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:7:9-35
+15-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] /home/trg_kien/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.1.0] /Users/baotran/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:8:9-43
+19-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:8:9-43
 20        android:label="@string/app_name"
-20-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:9:9-41
+20-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:9:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:10:9-54
+21-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:10:9-54
 22        android:supportsRtl="true"
-22-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:11:9-35
+22-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:11:9-35
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
-24-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:9-40
+24-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:12:9-40
 25        <activity android:name="com.example.newharmony.MainActivity" >
-25-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:9-19:20
-25-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:19-47
+25-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:9-19:20
+25-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:13:19-47
 26            <intent-filter>
-26-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:13-18:29
+26-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:14:13-18:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:17-69
-27-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:25-66
+27-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:17-69
+27-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:15:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:17:17-77
-29-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:17:27-74
+29-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:17:17-77
+29-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:17:27-74
 30            </intent-filter>
 31        </activity>
 32        <activity android:name="com.example.newharmony.GenerateColor" />
-32-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:20:9-60
-32-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:20:19-48
+32-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:20:9-60
+32-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:20:19-48
 33        <activity android:name="com.example.newharmony.ExtractColor" >
-33-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:21:9-22:20
-33-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:21:19-47
+33-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:21:9-22:20
+33-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:21:19-47
 34        </activity>
 35        <activity android:name="com.example.newharmony.MainScreen" >
-35-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:23:9-24:20
-35-->/home/trg_kien/Project/SE3/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:23:19-45
+35-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:23:9-24:20
+35-->/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/AndroidManifest.xml:23:19-45
 36        </activity>
 37    </application>
 38
