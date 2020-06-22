@@ -15,6 +15,7 @@
             android:layout_height="100dp"
             android:id="@+id/tv_color"
             android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_corner"
             />
 
     </LinearLayout>

@@ -84,6 +84,10 @@
         "source": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/res/layout/activity_generate_color.xml"
     },
     {
+        "merged": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/res/merged/debug/drawable_customshape.xml.flat",
+        "source": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/res/drawable/customshape.xml"
+    },
+    {
         "merged": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/res/merged/debug/drawable_illustration.png.flat",
         "source": "/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/src/main/res/drawable/illustration.png"
     },

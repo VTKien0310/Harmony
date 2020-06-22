@@ -1,4 +1,4 @@
-#Mon Jun 22 15:02:44 ICT 2020
+#Mon Jun 22 20:09:06 ICT 2020
 base.0=/Users/baotran/Documents/GitHub/Harmony/NewHarmony/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
